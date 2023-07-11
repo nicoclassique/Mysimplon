@@ -6,7 +6,7 @@ RUN apt-get update && \
     libzip-dev \
     zip
 
-# Enable mod_rewrite
+# Enable mod_rewrite 
 RUN a2enmod rewrite
 
 # Install PHP extensions
